@@ -60,6 +60,9 @@ export const TrackOrder = ({ isOpen, onClose, order, product }: TrackOrderProps)
                     rounded: "10px"
                 }
             })
+            setTimeout(() => {
+                window.location.reload()
+            }, 500)
         }else {
             toast({
                 title: "Error",

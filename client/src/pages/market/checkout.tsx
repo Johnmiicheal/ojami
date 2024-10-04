@@ -228,7 +228,7 @@ const Checkout = () => {
   };
 
   return (
-    <Flex direction="column"h="100vh" align="center">
+    <Flex direction="column" minH="100vh" align="center">
       <Flex
         borderBottom="2px solid #000"
         w="full"

@@ -452,7 +452,7 @@ const VendorHome: NextPageWithLayout<{}> = () => {
                         backgroundColor={
                           item.status == "completed"
                             ? "#00E440"
-                            : item.status == "failed"
+                            : item.status == "canceled"
                               ? "#FF0000"
                               : item.status ==
                                   "processing"
@@ -460,7 +460,7 @@ const VendorHome: NextPageWithLayout<{}> = () => {
                                 : item.status ==
                                     "pending"
                                   ? "#FFC100"
-                                  : "#000000"
+                                  : "#e2e2e2"
                         }
                         textTransform={"none"}
                       >

@@ -44,7 +44,7 @@ const Orders: NextPageWithLayout<{}> = () => {
   const newOrders = orders?.filter(order => order.status == 'pending')
   const deliveringOrders = orders?.filter(order => order.status == 'processing')
   const completedOrders = orders?.filter(order => order.status == 'completed')
-  const cancelledOrders = orders?.filter(order => order.status == 'failed')
+  const cancelledOrders = orders?.filter(order => order.status == 'canceled')
 
   useEffect(() => {
     const getVendorOrders = async () => {

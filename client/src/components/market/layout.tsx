@@ -35,6 +35,7 @@ import {
   IoSearch,
   IoSparkles,
   IoSparklesOutline,
+  IoStorefrontOutline,
   IoTicket,
   IoTicketOutline,
 } from "react-icons/io5";
@@ -493,6 +494,24 @@ export const MarketLayout: React.FC<MarketLayoutProps> = ({ children }) => {
                           rounded="4"
                         />
                         <Text fontWeight={500}>Orders</Text>
+                      </Flex>
+                      <Flex
+                        align="center"
+                        gap={2}
+                        p={2}
+                        _hover={{ bg: "#f0f0f0" }}
+                        rounded="lg"
+                        cursor="pointer"
+                        onClick={() => router.push("/vendor/home")}
+                      >
+                        <Icon
+                          as={IoStorefrontOutline}
+                          fontSize={36}
+                          p={2}
+                          border="1px solid #e2e2e2"
+                          rounded="4"
+                        />
+                        <Text fontWeight={500}>My Store</Text>
                       </Flex>
                     </Box>
                   </div>

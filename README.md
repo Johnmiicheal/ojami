@@ -22,6 +22,8 @@
     <a href="https://github.com/owolabioromidayo/ojami"><strong>Explore the docs »</strong></a>
     <br />
     <br />
+    <a href="https://www.youtube.com/watch?v=HhOyK0ckJGU">Youtube Demo</a>
+    .
     <a href="https://www.ojami.shop">View Demo</a>
     ·
     <a href="https://github.com/owolabioromidayo/ojami/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
